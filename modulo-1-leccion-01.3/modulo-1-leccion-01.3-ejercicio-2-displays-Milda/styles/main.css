@@ -1,0 +1,22 @@
+section > div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid deepskyblue;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}

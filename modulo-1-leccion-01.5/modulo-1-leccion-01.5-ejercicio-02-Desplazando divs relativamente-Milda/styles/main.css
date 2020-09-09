@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.divPadre {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.divPadre > div {
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.div1 {
+    background-color: red;
+    position: relative;
+    transform: translate(100px, 50px);
+}
+
+.div2 {
+    background-color: yellow;
+    position: relative;
+    transform: translate(-150px, -320px);
+}
+
+.div3 {
+    background-color: purple;
+    position: relative;
+    transform: translate(180px, -240px);
+}
+
+/* también se puede hacer con top, bottom, lef, right, pero la lógica sería inversa */

@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    margin: 50px;
+}
+
+.list-2 {
+    float: right;
+    position: relative;
+    top: -90px;
+}
+
+.list-2 > li {
+    display: inline-block;
+    padding: 0 12px 0 0;
+    /* float: left;
+    list-style: none; */
+}

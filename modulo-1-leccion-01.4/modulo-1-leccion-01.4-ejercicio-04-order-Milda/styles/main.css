@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:Garamond, Georgia, serif;
+}
+p {
+    text-align: justify;
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    border: 2px solid salmon;
+    justify-content: space-between;
+}
+
+.item {
+    box-sizing: border-box;
+    width: 50%;
+    border: 2px solid teal;
+    padding: 15px;
+}
+
+.item.item-5 {
+    order: -5;
+    width: 100%;
+}
+
+.fake-foto {
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+}
+/* .container :nth-child(5) {order:1;} */

@@ -1,0 +1,20 @@
+img {
+   width: 200px;
+    height: 100px;
+}
+div {
+    border: 2px solid salmon;
+    width: 200px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid teal;
+    width: 1100px;
+    height: 312px;
+}
+
+/* ¿cómo hacer colapsar los bordes entre las imágenes? */
