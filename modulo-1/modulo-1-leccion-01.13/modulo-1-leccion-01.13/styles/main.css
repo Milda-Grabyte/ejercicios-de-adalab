@@ -1,0 +1,28 @@
+.screen {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.screen__popup {
+  width: 60%;
+  height: 40%;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 3px grey;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  transform: translate(0px, 100vh);
+}
+
+.screen:hover .screen__popup {
+  transform: translate(0px, 0vh);
+  transition: ease-in 2s;
+  
+}
+
+.screen__popup--text {
+  font-size: 50px;
+  color: teal;
+}

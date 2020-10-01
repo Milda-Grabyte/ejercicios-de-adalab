@@ -1,0 +1,37 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20vh 1fr 20vh;
+  height: 100vh;
+}
+
+.item {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  grid-column: 1 / 13;
+  background: pink;
+}
+
+.item2 {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  background: purple;
+}
+
+.item3 {
+  grid-column: 5 / 13;
+  grid-row: 2 / 3;
+  background: maroon;
+}
+
+.item4 {
+  grid-column: 1 / 13;
+  grid-row: 3 / 4;
+  background: skyblue;
+}
