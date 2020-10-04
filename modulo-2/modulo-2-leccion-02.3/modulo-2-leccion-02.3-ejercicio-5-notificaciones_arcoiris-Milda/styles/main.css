@@ -1,0 +1,21 @@
+h1 {
+  text-transform: uppercase;
+}
+
+.success {
+  border: 2px solid darkgreen;
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.error {
+  border: 2px solid darkred;
+  background-color: red;
+  color: darkred;
+}
+
+.warning {
+  border: 2px solid darkgoldenrod;
+  background-color: yellow;
+  color: darkgoldenrod;
+}
