@@ -1,0 +1,22 @@
+li {
+  list-style: none;
+}
+
+i {
+  color: teal;
+}
+
+.clubs-list {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+}
+
+.clubs-list-item {
+  padding: 10px;
+}
+
+.title {
+  size: 40px;
+  color: teal;
+}

@@ -32,11 +32,11 @@ class ItemList extends React.Component {
   }
 }
 
-Item.defaultProps = {
+ItemList.defaultProps = {
   description: 'No hay descripción'
 };
 
-Item.propTypes = {
+ItemList.propTypes = {
   name: PropTypes.any.isRequired,
   price: PropTypes.number.isRequired,
 };
