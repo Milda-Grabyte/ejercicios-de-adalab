@@ -37,8 +37,8 @@ ItemList.defaultProps = {
 };
 
 ItemList.propTypes = {
-  name: PropTypes.any.isRequired,
-  price: PropTypes.number.isRequired,
+  name: propTypes.any.isRequired,
+  price: propTypes.number.isRequired,
 };
 
 export default ItemList;
